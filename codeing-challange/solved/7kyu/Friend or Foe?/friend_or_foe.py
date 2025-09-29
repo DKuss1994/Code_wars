@@ -5,11 +5,11 @@
 # Sprache: Python
 # Datum: 2025-09-29
 
-# Info: We get a list and we must return Person with 4 letter
+# Info: We get a list and we must return Person with exactly 4 letter
 
 def friend(x):
     new = []
     for i in x:
-        if len(i) <= 4:
+        if len(i) == 4:
             new.append(i)
     return new
