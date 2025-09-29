@@ -12,13 +12,9 @@
 # Noch ein zusatzt bei 0! soll 1 rauskommen
 
 def factorial(n: int) -> int:
-    # Wir starten mit dem abfangen vom Fehler
-    # Hier wird geprüft ob n größer 12 ist.
-    if n > 12:
-        raise ValueError("Input to larg")
-    #Hier wird geprüft ob n kleiner 0 ist
-    if n < 0:
-        raise ValueError("Input to low")
+    # Wir starten mit dem abfangen vom Fehler ob n größer 12 oder kleiner 0 ist
+    if n > 12 or n <0:
+        raise ValueError
     #Hier prüfen wir ob n = 0 ist um es auf 1 zusetzten
     if n == 0:
         n = 1
