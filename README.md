@@ -1,6 +1,6 @@
 # Algorithms & Coding Challenges Portfolio
 
-## Info: "Aktuell beginne ich mit 7kyu/8kyu Katas, dieses Repository dokumentiert meinen Lernfortschritt."
+### Info: "Aktuell beginne ich mit 7kyu/8kyu Katas, dieses Repository dokumentiert meinen Lernfortschritt."
 
 Dieses Repo enthält:
 - Meine Lösungen zu Codewars-/LeetCode-Aufgaben
