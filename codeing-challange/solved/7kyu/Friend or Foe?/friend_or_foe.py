@@ -5,7 +5,7 @@
 # Sprache: Python
 # Datum: 2025-09-29
 
-# Info: We get a list and we must return Person with exactly 4 letter
+# Task: We get a list and we must return Person with exactly 4 letter
 
 def friend(x):
     new = []
