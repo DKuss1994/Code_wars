@@ -22,7 +22,7 @@ Ignore capitalization when checking for duplicates.
 | `"(( @"`    | `"))(("`  |
 
 ### Code
-➡️ [Duplicate_Encoder.py](./codeing-challange/solved/6kyu/Duplicate_Encoder/Duplicate_Encoder.py)  
+➡️ [Duplicate_Encoder.py](./codeing-challange/solved/6kyu/Duplicate_Encoder/Duplicate_Encoder.py) 
 
 ### Tests
 ➡️ [test_Duplicate_Encoder.py](./codeing-challange/solved/6kyu/Duplicate_Encoder/test_Duplicate_Encoder.py)  
