@@ -23,7 +23,10 @@ Ignore capitalization when checking for duplicates.
 
 
 ### Lessons Learned
-- Using hashmaps or `Counter` simplifies duplicate checking  
-- `.lower()` makes the comparison case-insensitive  
-- Writing unit tests helps catch logic errors early
+- I learned how to count characters in a string.
+- I practiced ignoring uppercase and lowercase letters.
+- I learned how to keep track of characters that appear more than once.
+- I realized that unit tests help to find errors early.
+- I practiced checking my code step by step and keeping it organized.
+
 
