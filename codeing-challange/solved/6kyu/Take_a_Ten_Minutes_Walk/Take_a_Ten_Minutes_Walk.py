@@ -25,3 +25,4 @@ def is_valid_walk(walk):
             return True
     else:
         return False
+
