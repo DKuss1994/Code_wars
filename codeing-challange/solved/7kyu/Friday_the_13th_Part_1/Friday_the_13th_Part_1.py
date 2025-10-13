@@ -11,7 +11,7 @@
 # (the conselor's name and intelligence - ["Chad", 2]) and an integer representing Jason's intellegence.
 
 
-# Skilled: IMit mehreren variabeln in einer for Schleife zu arbeiten
+# Skilled: Mit mehreren variabeln in einer for Schleife zu arbeiten
 def kill_count(counselors, jason):
     jason_kill_list =[]
     for name,smart in counselors:
