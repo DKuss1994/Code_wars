@@ -15,3 +15,4 @@ def dig_pow(n, p):
     else:
         return -1
 
+# k = value_x /n or k*n = value_x, value_x = A¹+B²
