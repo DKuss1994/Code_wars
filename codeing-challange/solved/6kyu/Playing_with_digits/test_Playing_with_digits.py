@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(dig_pow(89,1), 1)
     def test_2(self):
         self.assertEqual(dig_pow(150,2),-1)
-    def 3(self):
+    def test_3(self):
         self.assertEqual(dig_pow(180,2),-1)
 
 if __name__ == '__main__':
