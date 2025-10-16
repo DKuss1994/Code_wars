@@ -8,7 +8,7 @@ def dig_pow(n, p):
         n_list.append(int(n_str[index]))
     for zahl in n_list:
         value_x += zahl ** p
-    p += 1
+        p += 1
     if value_x % n == 0:
         k = value_x / n
         return int(k)
