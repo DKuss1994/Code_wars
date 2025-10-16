@@ -4,11 +4,7 @@ def dig_pow(n, p):
     n_str = str(n)
 
 #Hier werden die zahlen separiert in eine Liste gepackt.
-    for index in range(len(n_str)):
-        n_list.append(int(n_str[index]))
-    for zahl in n_list:
-        value_x += zahl ** p
-        p += 1
+    value_x = sum(int(digit) ** (p + i) for i, digit in enumerate(str(n)))
     if value_x % n == 0:
         k = value_x / n
         return int(k)
@@ -16,3 +12,6 @@ def dig_pow(n, p):
         return -1
 
 # k = value_x /n or k*n = value_x, value_x = A¹+B²
+
+
+
