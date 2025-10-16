@@ -1,5 +1,5 @@
 import unittest
-from Remove_First_and_Last_Character
+from Remove_First_and_Last_Character import remove_char
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
