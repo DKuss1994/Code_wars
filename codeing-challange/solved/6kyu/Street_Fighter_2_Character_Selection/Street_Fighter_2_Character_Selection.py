@@ -37,9 +37,10 @@ def street_fighter_selection(fighters, initial_position, moves):
     up_down, left_right = initial_position
     #Hier gehen wir mit der for Schleife durch die liste der moves.
     for bewegung in moves:
-        # Prüfung, ob wir up hier haben und die Sonderbedienung eintritt, dass wir uns nicht bewegen wenn wir oben sind.
+        # Prüfung, ob wir up hier haben und die Sonderbedienung eintritt, dass wir uns nicht bewegen, wenn wir oben sind.
         if bewegung == "up" and up_down == 0:
             fighters_move.append(fighters[up_down][left_right])
+        # Prüfen ob wir up haben und nach oben moven in dem wir von 1 auf 0 gehen
         elif bewegung == "up" and up_down == 1:
             up_down = 0
             fighters_move.append(fighters[up_down][left_right])

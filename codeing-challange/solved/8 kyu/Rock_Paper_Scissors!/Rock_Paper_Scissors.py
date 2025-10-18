@@ -18,8 +18,8 @@
 
 # Hier konnte ich meine Python Skills auffrischen.
 
-def rps(p1, p2):
-    p1 =p1.lower()
+def rps(p1:str, p2:str):
+    p1 = p1.lower()
     p2 = p2.lower()
 
     if p1 ==p2:
